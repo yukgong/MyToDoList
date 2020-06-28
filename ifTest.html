@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    h1 {
+        color:#34495e;
+        transition: color 0.5s ease-in-out;
+    }
+    .btn{
+        cursor: pointer;
+    }
+
+    .clicked {
+        color : #7f8c8d;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="title" class="btn">You can drink</h1>
+    <script>
+        const title = document.querySelector("#title");
+        const CLICKED_CLASS = "clicked";
+        
+
+        function handleChange(){
+            title.classList.toggle(CLICKED_CLASS);
+        }
+
+        function init() {
+            title.addEventListener("click", handleChange);
+        }
+        init();
+
+    </script>
+</body>
+</html>

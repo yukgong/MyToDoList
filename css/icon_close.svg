@@ -1,0 +1,12 @@
+<svg id="a0fbd36c-0ad2-4026-b981-ff0d6c4e50c8" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+
+<style type="text/css">
+    <![CDATA[
+    .iconColor { fill: white; }
+    ]]>
+  </style>
+
+  <title>icon</title>
+  <rect width="16" height="16" style="fill: none"/>
+  <path class = "iconColor" d="M12.45947,4.45947,8.91919,8l3.54028,3.54-.91894.91992L8,8.91919,4.45947,12.46,3.54053,11.54,7.08081,8,3.54053,4.45947l.91894-.91894L8,7.08081l3.54053-3.54028Z"/>
+</svg>

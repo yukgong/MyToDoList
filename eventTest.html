@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="h1">Javascript</h1>
+
+    <!-- Javascript -->
+    <script>
+        const title = document.getElementById("h1");
+        
+        const mouseEvent = {
+            over : function(event){
+                console.log(event);
+                title.style.color = "blue";
+            },
+            leave : function(event){
+                console.log(event);
+                title.style.color = "black";
+            },
+                
+        }
+        
+
+        title.addEventListener("mouseover", mouseEvent.over);
+        title.addEventListener("mouseleave", mouseEvent.leave);
+
+    </script>
+</body>
+
+</html>
