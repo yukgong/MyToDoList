@@ -8,11 +8,13 @@
 - 배경색 랜덤하게 바꾸기
 - 환영인사
 
+
 ### Technologies used
 - HTML
 - CSS
 - JavaScript
 
+
 ### Reference
-니콜라스의 바닐라 JS로 크롬 앱 만들기 참고 \n
+니콜라스의 바닐라 JS로 크롬 앱 만들기 참고
 https://nomadcoders.co/javascript-for-beginners
