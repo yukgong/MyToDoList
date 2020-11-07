@@ -4,7 +4,6 @@ const IMG_NUMBER = 3;
 
 
 function paintImg(imgNum) {
-
     backgrounds.classList.add(`color${imgNum + 1}`);
 
 }
@@ -38,10 +37,10 @@ function removeClassList() {
 function init() {
     paintImg(genRandom());
 
-    setInterval(function() {
-        removeClassList();
-        randomBack();
-    }, 2000);
+//     setInterval(function() {
+//         removeClassList();
+//         randomBack();
+//     }, 2000);
 }
 
 init();
